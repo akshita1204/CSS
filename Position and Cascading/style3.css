@@ -1,0 +1,38 @@
+
+#container
+{
+    height:400px;
+    width:600px;
+    background-color: white;
+    position: relative;
+}
+.first, .third
+{
+    height:100px;
+    width:600px;
+    background-color:rgb(211, 46, 46);
+    position: absolute;
+}
+.third{
+    bottom:0;
+    left:0;
+}
+.second
+{
+    height:200px;
+    width:600px;
+    background-color:rgb(21, 21, 139);
+    position: absolute;
+    top:100px;
+    left:0;
+}
+#circle
+{
+    height:150px;
+    width:150px;
+    background-color:white;
+    border-radius:50%;
+    position: absolute;
+    top:25px;
+    left:200px;
+}
