@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3d3d3cc;
+    height: 100vh;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;   /* rows ke beech gap */
+}
+
+.container
+{
+    background-color:white;
+    height:500px;
+    width: 400px;
+    border-radius: 5px;
+    border: 10px solid;
+    border-color: turquoise;
+}
+h1{
+    text-align: center;
+    background-color: turquoise;
+}
+label{
+    font-size: 20px;
+    font-weight: 800px;
+    margin:10px;
+    padding: 10px;
+}
+input{
+   width:300px;
+   margin-left: 20px;
+}
+button{
+    width:100px;
+    height:30px;
+    margin-left: 150px;
+    background-color: turquoise;
+}
