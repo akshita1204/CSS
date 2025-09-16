@@ -1,0 +1,41 @@
+*
+{
+padding:0px;
+margin:0px;
+}
+
+body{
+    background-color: black;
+}
+
+.container
+{
+    display:grid;
+    /* grid-template-rows: 200px 200px;
+    grid-template-columns: 200px 200px; */
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(234, 235, 235);
+    gap:10px;
+    height:400px;
+    width:400px;
+    margin:20px;
+    
+}
+
+.first
+{
+    background-color: salmon;
+}
+.second
+{
+    background-color: rgb(175, 122, 225);
+}
+.third
+{
+    background-color: rgb(129, 242, 129);
+}
+.fourth
+{
+    background-color: rgb(255, 255, 129);
+}

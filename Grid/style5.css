@@ -1,0 +1,73 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color:white;
+    font-size: 40px;
+}
+
+.container
+{
+    height:620px;
+    width: 800px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 10px;
+}
+
+.box
+{
+    background-color: pink;
+}
+
+.first
+{
+    grid-row:1/4;
+    background-color: rgb(43, 200, 8);
+}
+
+.second
+{
+    grid-column: 2/4;
+    background-color:rgb(43, 200, 8);
+}
+
+.third
+{
+    background-color: rgb(213, 16, 16);
+}
+
+.fourth
+{
+    background-color: rgba(255, 247, 0, 0.941);
+}
+
+.fifth
+{
+    background-color: rgb(213, 16, 16);
+}
+
+.sixth
+{
+    background-color: rgb(213, 16, 16);
+}
+
+.seventh
+{
+    background-color: rgba(255, 247, 0, 0.941);
+}
+
+.eighth
+{
+    background-color: rgb(43, 200, 8);
+    grid-row:2/4;
+    grid-column: 4/5;
+}
