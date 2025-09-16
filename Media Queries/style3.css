@@ -1,0 +1,29 @@
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-size: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.container
+{
+    height:500px;
+    width:500px;
+    background-color: plum;
+    /* box-shadow: 10px 10px 13px blueviolet; direction ydirection blur radius */
+    /* box-shadow: 10px 10px 13px 10px blueviolet; xdirection ydirection blur radius spread radius */
+    /* box-shadow: -10px -10px purple; */
+    /* box-shadow: -10px -10px purple; */
+    box-shadow: inset 10px 10px blueviolet; /*shadow andar ki side*/
+}
