@@ -1,0 +1,39 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.container
+{
+background-color: violet;
+border-radius: 2px solid white;
+font-size: 40px;
+padding: 10px;
+margin:20px;
+color: white;
+width:70%;
+border-radius: 5px;
+white-space: nowrap;
+overflow: hidden;
+}
+
+p{
+animation-name: move;
+animation-duration: 5s;
+animation-iteration-count: infinite;  
+}
+
+@keyframes move{
+    from{margin-left:100%}
+    to{margin-left:-100%}
+}
